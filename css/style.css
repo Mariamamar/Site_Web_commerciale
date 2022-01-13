@@ -1,0 +1,12 @@
+body login {
+background-color: gainsboro;
+}
+.bx{
+box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+}
+.by{
+box-shadow: 1px 1px 1px rgba(0,0,0,0);
+}
+.width { 
+width:300px;}
+.alpha { color: $blue-800; }

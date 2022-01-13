@@ -1,0 +1,11 @@
+<?php 
+$idqt=$_GET['i'];
+    include_once 'bconfig.php';
+
+	$sqlins = "DELETE FROM `actualite` WHERE id='$idqt'";  
+$prepareinsert=$pdo->prepare($sqlins);
+   
+$prepareinsert->execute(); 
+echo 1;
+
+?>
